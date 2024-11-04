@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+header {
+    background-image: url(../images/home_bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.container {
+    margin: auto;
+}
+
+.logo {
+    width: 90px;
+    margin-left: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    margin: 200px;
+}
+
+.text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 15px;
+
+}
+
+.text h1 span {
+    color: orange;
+}
+
+.text h3 {
+    margin: 20px 0 40px;
+    color: #fff;
+}
+
+.text a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 15px 30px
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+}
+
+.main-about {
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: #383848;
+    margin-bottom: 10px;
+    padding-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title p {
+    color: #383848;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-text p {
+    color: gray;
+    height: 200px;
+    width: 500px;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 150px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    background-color: #383848;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+
+.about-img img {
+    width: 80%;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.offers {
+    background: url(../images/offer-background.jpg)center center/cover fixed;
+    ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title1 h1 {
+    color: rgb(220, 187, 1);
+    font-size: 40px;
+    font-family: 'Segoe UI';
+}
+
+.title1 p {
+    font-family: Arial;
+    line-height: 3;
+}
+
+.offer-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.item {
+    font-family: sans-serif;
+    line-height: 2;
+
+}
+
+.item p {
+    color: rgb(64, 64, 64);
+}
+
+.gold {
+    color: gold;
+    font-size: 20px;
+}
+
+.img {
+    width: 200px;
+}
+
+
+.menu {
+    height: 100%;
+    background: #f4f2ed;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-items-left img {
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 0;
+}
+
+.menu-items-right img {
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 0;
+}
+
+.nella {
+    display: flex;
+
+}
+
+.primary-text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #c77b08;
+}
+
+.nella h3 {
+    border-bottom: gray dashed 1px;
+    padding: 0 0 10px 0;
+    position: relative;
+    line-height: 30px;
+    color: #14141d;
+}
+
+.nella p {
+    color: #14141d;
+    line-height: 30px;
+}
+
+.done {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: #c77b08;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin: 600px;
+    line-height: 6;
+}
+
+.photo {
+    background-image: url(../images/daytime_bg.jpeg);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery {
+    background-image: url(../images/offer-background.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.wrap-img h1 {
+    /* font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 30px; */
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.wrap-img h1 {
+    padding: 60px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper img {
+    margin: 20px;
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.wrapper img:hover {
+    opacity: 1;
+}
+
+
+.all {
+    display: flex;
+    height: 100%;
+    background-color: rgba(185, 185, 185, 0.779);
+}
+
+.contact h1 {
+    margin: 30px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ADDRESS {
+    color: #212125;
+    margin: 100px 200px;
+    font-family: sans-serif;
+}
+
+.add a {
+    text-decoration: none;
+    color: #c77b08;
+}
+
+.add .a1 {
+    display: flex;
+    gap: 10px;
+}
+
+.add .a2 {
+    display: flex;
+    gap: 10px;
+}
+
+.add .a3 {
+    display: flex;
+    gap: 10px;
+}
+
+.add p {
+    color: #1f1f1f70;
+    margin: 5px 0;
+}
+
+.ADDRESS h1 {
+    color: #14141d;
+}
+
+.ADDRESS p {
+    color: #1f1f1f70;
+
+}
+
+.pre p {
+    margin: 10px 0;
+}
+
+.gap {
+    margin: 5px 0;
+}
+
+.icon a {
+    color: white;
+    width: 100px;
+    padding: 8px;
+    font-size: 30px;
+    background-color: #14141ddd;
+    border-radius: 50%;
+}
+
+.form {
+    margin: 50px 100px;
+
+}
+
+form input,
+textarea {
+    display: block;
+    width: 500px;
+    height: 60px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #e3e2dd;
+}
+
+form input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    background-color: #c77b08;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #383848;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+}
